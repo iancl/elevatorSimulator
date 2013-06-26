@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6E88F3176B6C0300B6CA41 /* RESFloorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E88F1176B6C0300B6CA41 /* RESFloorViewController.m */; };
+		3C6E88F4176B6C0300B6CA41 /* RESFloorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C6E88F2176B6C0300B6CA41 /* RESFloorViewController.xib */; };
+		3C6E88F7176B70BF00B6CA41 /* brickTexture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C6E88F6176B70BF00B6CA41 /* brickTexture.jpg */; };
+		3C6E88FC176B81C300B6CA41 /* RESCageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E88FA176B81C300B6CA41 /* RESCageViewController.m */; };
+		3C6E88FD176B81C300B6CA41 /* RESCageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C6E88FB176B81C300B6CA41 /* RESCageViewController.xib */; };
+		3C76B87517721A7600F67148 /* RESMainPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C76B87317721A7600F67148 /* RESMainPanelViewController.m */; };
+		3C76B87617721A7600F67148 /* RESMainPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C76B87417721A7600F67148 /* RESMainPanelViewController.xib */; };
+		3CECEEC2176A4DB500F7E54A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CECEEC1176A4DB500F7E54A /* UIKit.framework */; };
+		3CECEEC4176A4DB500F7E54A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CECEEC3176A4DB500F7E54A /* Foundation.framework */; };
+		3CECEEC6176A4DB500F7E54A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CECEEC5176A4DB500F7E54A /* CoreGraphics.framework */; };
+		3CECEECC176A4DB500F7E54A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CECEECA176A4DB500F7E54A /* InfoPlist.strings */; };
+		3CECEECE176A4DB500F7E54A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CECEECD176A4DB500F7E54A /* main.m */; };
+		3CECEED2176A4DB500F7E54A /* RESAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CECEED1176A4DB500F7E54A /* RESAppDelegate.m */; };
+		3CECEED4176A4DB500F7E54A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CECEED3176A4DB500F7E54A /* Default.png */; };
+		3CECEED6176A4DB500F7E54A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CECEED5176A4DB500F7E54A /* Default@2x.png */; };
+		3CECEED8176A4DB500F7E54A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CECEED7176A4DB500F7E54A /* Default-568h@2x.png */; };
+		3CECEEEB176A4EAA00F7E54A /* RESFloorPanelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CECEEEA176A4EAA00F7E54A /* RESFloorPanelManager.m */; };
+		3CECEEEE176A4F7500F7E54A /* RESFloorDoorsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CECEEED176A4F7500F7E54A /* RESFloorDoorsManager.m */; };
+		3CECEEF2176A505300F7E54A /* RESMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CECEEF0176A505300F7E54A /* RESMainViewController.m */; };
+		3CECEEF3176A505300F7E54A /* RESMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CECEEF1176A505300F7E54A /* RESMainViewController.xib */; };
+		3CECEEF7176A509C00F7E54A /* RESDoorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CECEEF5176A509C00F7E54A /* RESDoorsViewController.m */; };
+		3CECEEF8176A509C00F7E54A /* RESDoorsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CECEEF6176A509C00F7E54A /* RESDoorsViewController.xib */; };
+		3CECEEFA176A599D00F7E54A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CECEEF9176A599D00F7E54A /* QuartzCore.framework */; };
+		3CECEEFE176A692E00F7E54A /* RESFloorPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CECEEFC176A692E00F7E54A /* RESFloorPanelViewController.m */; };
+		3CECEEFF176A692E00F7E54A /* RESFloorPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CECEEFD176A692E00F7E54A /* RESFloorPanelViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C6E88F0176B6C0300B6CA41 /* RESFloorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESFloorViewController.h; sourceTree = "<group>"; };
+		3C6E88F1176B6C0300B6CA41 /* RESFloorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESFloorViewController.m; sourceTree = "<group>"; };
+		3C6E88F2176B6C0300B6CA41 /* RESFloorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RESFloorViewController.xib; sourceTree = "<group>"; };
+		3C6E88F6176B70BF00B6CA41 /* brickTexture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brickTexture.jpg; sourceTree = "<group>"; };
+		3C6E88F9176B81C300B6CA41 /* RESCageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESCageViewController.h; sourceTree = "<group>"; };
+		3C6E88FA176B81C300B6CA41 /* RESCageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESCageViewController.m; sourceTree = "<group>"; };
+		3C6E88FB176B81C300B6CA41 /* RESCageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RESCageViewController.xib; sourceTree = "<group>"; };
+		3C76B87217721A7600F67148 /* RESMainPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESMainPanelViewController.h; sourceTree = "<group>"; };
+		3C76B87317721A7600F67148 /* RESMainPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESMainPanelViewController.m; sourceTree = "<group>"; };
+		3C76B87417721A7600F67148 /* RESMainPanelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RESMainPanelViewController.xib; sourceTree = "<group>"; };
+		3CECEEBE176A4DB500F7E54A /* RealElevatorSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealElevatorSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CECEEC1176A4DB500F7E54A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3CECEEC3176A4DB500F7E54A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CECEEC5176A4DB500F7E54A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3CECEEC9176A4DB500F7E54A /* RealElevatorSimulator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealElevatorSimulator-Info.plist"; sourceTree = "<group>"; };
+		3CECEECB176A4DB500F7E54A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CECEECD176A4DB500F7E54A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CECEECF176A4DB500F7E54A /* RealElevatorSimulator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealElevatorSimulator-Prefix.pch"; sourceTree = "<group>"; };
+		3CECEED0176A4DB500F7E54A /* RESAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RESAppDelegate.h; sourceTree = "<group>"; };
+		3CECEED1176A4DB500F7E54A /* RESAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RESAppDelegate.m; sourceTree = "<group>"; };
+		3CECEED3176A4DB500F7E54A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3CECEED5176A4DB500F7E54A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3CECEED7176A4DB500F7E54A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3CECEEE9176A4EAA00F7E54A /* RESFloorPanelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESFloorPanelManager.h; sourceTree = "<group>"; };
+		3CECEEEA176A4EAA00F7E54A /* RESFloorPanelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESFloorPanelManager.m; sourceTree = "<group>"; };
+		3CECEEEC176A4F7500F7E54A /* RESFloorDoorsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESFloorDoorsManager.h; sourceTree = "<group>"; };
+		3CECEEED176A4F7500F7E54A /* RESFloorDoorsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESFloorDoorsManager.m; sourceTree = "<group>"; };
+		3CECEEEF176A505300F7E54A /* RESMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESMainViewController.h; sourceTree = "<group>"; };
+		3CECEEF0176A505300F7E54A /* RESMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESMainViewController.m; sourceTree = "<group>"; };
+		3CECEEF1176A505300F7E54A /* RESMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RESMainViewController.xib; sourceTree = "<group>"; };
+		3CECEEF4176A509C00F7E54A /* RESDoorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESDoorsViewController.h; sourceTree = "<group>"; };
+		3CECEEF5176A509C00F7E54A /* RESDoorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESDoorsViewController.m; sourceTree = "<group>"; };
+		3CECEEF6176A509C00F7E54A /* RESDoorsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RESDoorsViewController.xib; sourceTree = "<group>"; };
+		3CECEEF9176A599D00F7E54A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3CECEEFB176A692E00F7E54A /* RESFloorPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESFloorPanelViewController.h; sourceTree = "<group>"; };
+		3CECEEFC176A692E00F7E54A /* RESFloorPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESFloorPanelViewController.m; sourceTree = "<group>"; };
+		3CECEEFD176A692E00F7E54A /* RESFloorPanelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RESFloorPanelViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CECEEBB176A4DB500F7E54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CECEEFA176A599D00F7E54A /* QuartzCore.framework in Frameworks */,
+				3CECEEC2176A4DB500F7E54A /* UIKit.framework in Frameworks */,
+				3CECEEC4176A4DB500F7E54A /* Foundation.framework in Frameworks */,
+				3CECEEC6176A4DB500F7E54A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C6E88F5176B709400B6CA41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C6E88F6176B70BF00B6CA41 /* brickTexture.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3CECEEB5176A4DB500F7E54A = {
+			isa = PBXGroup;
+			children = (
+				3CECEEF9176A599D00F7E54A /* QuartzCore.framework */,
+				3CECEEC7176A4DB500F7E54A /* RealElevatorSimulator */,
+				3CECEEC0176A4DB500F7E54A /* Frameworks */,
+				3CECEEBF176A4DB500F7E54A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CECEEBF176A4DB500F7E54A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CECEEBE176A4DB500F7E54A /* RealElevatorSimulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CECEEC0176A4DB500F7E54A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CECEEC1176A4DB500F7E54A /* UIKit.framework */,
+				3CECEEC3176A4DB500F7E54A /* Foundation.framework */,
+				3CECEEC5176A4DB500F7E54A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CECEEC7176A4DB500F7E54A /* RealElevatorSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				3C6E88F5176B709400B6CA41 /* Resources */,
+				3CECEF01176A733100F7E54A /* FloorPanelRelated */,
+				3CECEF00176A732900F7E54A /* DoorsRelated */,
+				3CECEEE3176A4E1800F7E54A /* MainPanel */,
+				3CECEEE2176A4E0F00F7E54A /* CageController */,
+				3CECEEE0176A4DF700F7E54A /* FloorController */,
+				3CECEEDE176A4DDF00F7E54A /* MainController */,
+				3CECEED0176A4DB500F7E54A /* RESAppDelegate.h */,
+				3CECEED1176A4DB500F7E54A /* RESAppDelegate.m */,
+				3CECEEC8176A4DB500F7E54A /* Supporting Files */,
+			);
+			path = RealElevatorSimulator;
+			sourceTree = "<group>";
+		};
+		3CECEEC8176A4DB500F7E54A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CECEEC9176A4DB500F7E54A /* RealElevatorSimulator-Info.plist */,
+				3CECEECA176A4DB500F7E54A /* InfoPlist.strings */,
+				3CECEECD176A4DB500F7E54A /* main.m */,
+				3CECEECF176A4DB500F7E54A /* RealElevatorSimulator-Prefix.pch */,
+				3CECEED3176A4DB500F7E54A /* Default.png */,
+				3CECEED5176A4DB500F7E54A /* Default@2x.png */,
+				3CECEED7176A4DB500F7E54A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CECEEDE176A4DDF00F7E54A /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				3CECEEEF176A505300F7E54A /* RESMainViewController.h */,
+				3CECEEF0176A505300F7E54A /* RESMainViewController.m */,
+				3CECEEF1176A505300F7E54A /* RESMainViewController.xib */,
+			);
+			name = MainController;
+			sourceTree = "<group>";
+		};
+		3CECEEDF176A4DEF00F7E54A /* DoorsController */ = {
+			isa = PBXGroup;
+			children = (
+				3CECEEF4176A509C00F7E54A /* RESDoorsViewController.h */,
+				3CECEEF5176A509C00F7E54A /* RESDoorsViewController.m */,
+				3CECEEF6176A509C00F7E54A /* RESDoorsViewController.xib */,
+			);
+			name = DoorsController;
+			sourceTree = "<group>";
+		};
+		3CECEEE0176A4DF700F7E54A /* FloorController */ = {
+			isa = PBXGroup;
+			children = (
+				3C6E88F0176B6C0300B6CA41 /* RESFloorViewController.h */,
+				3C6E88F1176B6C0300B6CA41 /* RESFloorViewController.m */,
+				3C6E88F2176B6C0300B6CA41 /* RESFloorViewController.xib */,
+			);
+			name = FloorController;
+			sourceTree = "<group>";
+		};
+		3CECEEE1176A4E0300F7E54A /* FloorPanelController */ = {
+			isa = PBXGroup;
+			children = (
+				3CECEEFB176A692E00F7E54A /* RESFloorPanelViewController.h */,
+				3CECEEFC176A692E00F7E54A /* RESFloorPanelViewController.m */,
+				3CECEEFD176A692E00F7E54A /* RESFloorPanelViewController.xib */,
+			);
+			name = FloorPanelController;
+			sourceTree = "<group>";
+		};
+		3CECEEE2176A4E0F00F7E54A /* CageController */ = {
+			isa = PBXGroup;
+			children = (
+				3C6E88F9176B81C300B6CA41 /* RESCageViewController.h */,
+				3C6E88FA176B81C300B6CA41 /* RESCageViewController.m */,
+				3C6E88FB176B81C300B6CA41 /* RESCageViewController.xib */,
+			);
+			name = CageController;
+			sourceTree = "<group>";
+		};
+		3CECEEE3176A4E1800F7E54A /* MainPanel */ = {
+			isa = PBXGroup;
+			children = (
+				3C76B87217721A7600F67148 /* RESMainPanelViewController.h */,
+				3C76B87317721A7600F67148 /* RESMainPanelViewController.m */,
+				3C76B87417721A7600F67148 /* RESMainPanelViewController.xib */,
+			);
+			name = MainPanel;
+			sourceTree = "<group>";
+		};
+		3CECEEE4176A4E5000F7E54A /* FloorPanelManager */ = {
+			isa = PBXGroup;
+			children = (
+				3CECEEE9176A4EAA00F7E54A /* RESFloorPanelManager.h */,
+				3CECEEEA176A4EAA00F7E54A /* RESFloorPanelManager.m */,
+			);
+			name = FloorPanelManager;
+			sourceTree = "<group>";
+		};
+		3CECEEE5176A4E5B00F7E54A /* FloorDoorsManager */ = {
+			isa = PBXGroup;
+			children = (
+				3CECEEEC176A4F7500F7E54A /* RESFloorDoorsManager.h */,
+				3CECEEED176A4F7500F7E54A /* RESFloorDoorsManager.m */,
+			);
+			name = FloorDoorsManager;
+			sourceTree = "<group>";
+		};
+		3CECEF00176A732900F7E54A /* DoorsRelated */ = {
+			isa = PBXGroup;
+			children = (
+				3CECEEDF176A4DEF00F7E54A /* DoorsController */,
+				3CECEEE5176A4E5B00F7E54A /* FloorDoorsManager */,
+			);
+			name = DoorsRelated;
+			sourceTree = "<group>";
+		};
+		3CECEF01176A733100F7E54A /* FloorPanelRelated */ = {
+			isa = PBXGroup;
+			children = (
+				3CECEEE4176A4E5000F7E54A /* FloorPanelManager */,
+				3CECEEE1176A4E0300F7E54A /* FloorPanelController */,
+			);
+			name = FloorPanelRelated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CECEEBD176A4DB500F7E54A /* RealElevatorSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CECEEDB176A4DB500F7E54A /* Build configuration list for PBXNativeTarget "RealElevatorSimulator" */;
+			buildPhases = (
+				3CECEEBA176A4DB500F7E54A /* Sources */,
+				3CECEEBB176A4DB500F7E54A /* Frameworks */,
+				3CECEEBC176A4DB500F7E54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealElevatorSimulator;
+			productName = RealElevatorSimulator;
+			productReference = 3CECEEBE176A4DB500F7E54A /* RealElevatorSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CECEEB6176A4DB500F7E54A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RES;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Ian;
+			};
+			buildConfigurationList = 3CECEEB9176A4DB500F7E54A /* Build configuration list for PBXProject "RealElevatorSimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CECEEB5176A4DB500F7E54A;
+			productRefGroup = 3CECEEBF176A4DB500F7E54A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CECEEBD176A4DB500F7E54A /* RealElevatorSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CECEEBC176A4DB500F7E54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CECEECC176A4DB500F7E54A /* InfoPlist.strings in Resources */,
+				3CECEED4176A4DB500F7E54A /* Default.png in Resources */,
+				3CECEED6176A4DB500F7E54A /* Default@2x.png in Resources */,
+				3CECEED8176A4DB500F7E54A /* Default-568h@2x.png in Resources */,
+				3CECEEF3176A505300F7E54A /* RESMainViewController.xib in Resources */,
+				3CECEEF8176A509C00F7E54A /* RESDoorsViewController.xib in Resources */,
+				3CECEEFF176A692E00F7E54A /* RESFloorPanelViewController.xib in Resources */,
+				3C6E88F4176B6C0300B6CA41 /* RESFloorViewController.xib in Resources */,
+				3C6E88F7176B70BF00B6CA41 /* brickTexture.jpg in Resources */,
+				3C6E88FD176B81C300B6CA41 /* RESCageViewController.xib in Resources */,
+				3C76B87617721A7600F67148 /* RESMainPanelViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CECEEBA176A4DB500F7E54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CECEECE176A4DB500F7E54A /* main.m in Sources */,
+				3CECEED2176A4DB500F7E54A /* RESAppDelegate.m in Sources */,
+				3CECEEEB176A4EAA00F7E54A /* RESFloorPanelManager.m in Sources */,
+				3CECEEEE176A4F7500F7E54A /* RESFloorDoorsManager.m in Sources */,
+				3CECEEF2176A505300F7E54A /* RESMainViewController.m in Sources */,
+				3CECEEF7176A509C00F7E54A /* RESDoorsViewController.m in Sources */,
+				3CECEEFE176A692E00F7E54A /* RESFloorPanelViewController.m in Sources */,
+				3C6E88F3176B6C0300B6CA41 /* RESFloorViewController.m in Sources */,
+				3C6E88FC176B81C300B6CA41 /* RESCageViewController.m in Sources */,
+				3C76B87517721A7600F67148 /* RESMainPanelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CECEECA176A4DB500F7E54A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CECEECB176A4DB500F7E54A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CECEED9176A4DB500F7E54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3CECEEDA176A4DB500F7E54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CECEEDC176A4DB500F7E54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealElevatorSimulator/RealElevatorSimulator-Prefix.pch";
+				INFOPLIST_FILE = "RealElevatorSimulator/RealElevatorSimulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3CECEEDD176A4DB500F7E54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealElevatorSimulator/RealElevatorSimulator-Prefix.pch";
+				INFOPLIST_FILE = "RealElevatorSimulator/RealElevatorSimulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CECEEB9176A4DB500F7E54A /* Build configuration list for PBXProject "RealElevatorSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CECEED9176A4DB500F7E54A /* Debug */,
+				3CECEEDA176A4DB500F7E54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CECEEDB176A4DB500F7E54A /* Build configuration list for PBXNativeTarget "RealElevatorSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CECEEDC176A4DB500F7E54A /* Debug */,
+				3CECEEDD176A4DB500F7E54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CECEEB6176A4DB500F7E54A /* Project object */;
+}
